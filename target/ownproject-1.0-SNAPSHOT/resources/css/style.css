@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Основные компоненты*/
+body{
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+    align-items: baseline;
+    padding: 1rem 2rem;
+}
+.main-heading{
+    text-align: center;
+    border: 3px solid black;
+    padding: .5rem 1rem;
+    margin-bottom: 2rem;
+}
+a{
+    font-size: 1rem;
+}
+
+/*Центральная панель*/
+.main{
+    margin-top: 1rem;
+    flex-grow: 5;
+    flex-basis: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*Левая боковая панель*/
+.navigation{
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    align-self: flex-start;
+}
+.navigation-item{
+    margin-left: .5rem;
+}
+
+/*Правая боковая панель*/
+.logout{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+/*Student list*/
+.heading-secondary{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.student-buttons{
+    display: flex;
+}
+button {
+    margin: 1rem 1rem 1rem 0rem;
+    padding: 1rem 2rem;
+}
+.butt{
+    display: flex;
+    flex-direction: column;
+}
+/*Создание таблиц*/
+table{
+    border-collapse: collapse;
+}
+.student-table{
+    width: 100%;
+}
+TH{
+    background-color: rgb(92, 91, 91);
+    font-size: 1.3rem;
+    padding: 0.4rem;
+}
+TD{
+    font-size: 1.3rem;
+    padding: 0.4rem;
+}
+
+/*disciplines*/
+.disc-buttons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+.disc-container{
+    display: flex;
+    justify-content: center;
+    padding: 5rem 10rem;
+}
+.table-font{
+    font-size: 2rem;
+}
+/*Students' modification*/
+.sername-window{
+    margin-left: 3.75rem;
+    padding-bottom: 1.5rem;
+}
+.name-window{
+    margin-left: 5.85rem;
+    padding-bottom: 1.5rem;
+}
+.group-window{
+    margin-left: 4.63rem;
+    padding-bottom: 1.5rem;
+}
+.send-button{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #636464; /* Серый цвет фона */
+    color: rgb(0, 0, 0); /* Белый цвет текста */
+    padding: 0.5rem 2rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+}
+/*student progress*/
+.current-student{
+    width: 100%;
+    margin-bottom: 4rem;
+}
+.modif-btn{
+    padding: 0.6rem 1.6rem 0.6rem 1.6rem;
+}
+#choose-sem{
+    width: 10rem;
+    height: 2.3rem;
+}
+/*discipline creation*/
+.discipline-creation-window{
+    margin-top: 2rem;
+}
+.sem-selection-table{
+    width: 50%;
+    padding: 0.5rem 2rem 0.5rem 0rem;
+}
+.semestr-length{
+    margin-bottom: 2rem;
+}
+#semestr-disciplines{
+    width: 10.9rem;
+}
+.button-like-input{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1rem 1rem 3rem;
+    padding: 1rem 2rem 1rem 4rem;
+}
+.studbutton-like-input{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1rem 1rem 0rem;
+    padding: 1rem 2rem 1rem 4rem;
+}
+.studbutton-like-input-second{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1rem 1rem 0rem;
+    padding: 1rem 2rem 1rem 3rem;
+}
